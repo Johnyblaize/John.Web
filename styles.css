@@ -1,0 +1,185 @@
+.header {
+    Height: 60dvh;
+    Width: 400px;
+
+}
+
+.nav-bar{
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: justify;
+    width: 40px;
+    padding: 5px 0px;
+    padding-right: 50%;
+    gap:30px
+    
+}
+.logo {
+    color: tomato;
+    text-align: right;
+    font-style: bold;
+    font-size: x-large;
+
+}
+.nav-links {
+    display: flex;
+    gap: 20px;
+    background-color: white;
+    top: 50px;
+    padding: 10px;
+    padding-left: 80px; 
+    width: 500px;
+    box-shadow: 1px 4px 10px;
+
+}
+.menu-bar {
+    height: 40px;
+    position: fixed;
+    border-radius: 100%;
+    object-fit: cover;
+   
+}
+
+
+.name {
+    color: tomato;
+    font-style: italic;
+}
+.class-intro{
+    gap: 30px;
+    width: 60px;
+}
+.course-title {
+color:deepskyblue;
+}
+
+.hero-intro p {
+margin-bottom: 0%;
+padding: 10px;
+text-align: justify;
+width: 110px;
+height: 100px;
+
+
+}
+.hero-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+
+.div .hero-img {
+    height: 50px;
+}
+.about {
+    padding: 10px;
+    padding-right: 25%;
+    margin: 0px;
+}
+
+.about-me {
+    font-style: italic;
+    gap: 10px
+}
+
+.about-me-text {
+    text-align: justify;
+    margin-bottom: 0rem;
+}
+.footer h1 {
+display: flex;
+gap: 30px;
+
+
+   
+}
+.footer {
+    margin: 10px;
+    background-color: rgb(177, 222, 220);
+    box-shadow: 1px 4px 10px;
+    height: 120px;
+    justify-content: space-evenly;
+    padding: 100px;
+    display: flex;
+    width: 40px;
+    position: fixed;
+    padding: 0px 40px;
+    padding-right: 55%;
+    gap:30px
+
+}
+.footer .social-links {
+gap: 1%;
+}
+.footer .social-links li {
+  list-style: none;
+}
+.footer .social-links li img {
+  width: 10px;
+  height: auto;
+  object-fit: cover;
+  display: none;
+}
+.footer .img {
+    width: 10px;
+} 
+.small {
+    padding-right: 10%;
+}
+@media (max-width: 480px) {
+  .nav-bar .logo {
+    font-size: 1.3rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    background-color: whitesmoke;
+    width: 100%;
+    align-items: center;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    z-index: 10;
+    height: 400px;
+    padding-top: 40px;
+    display: none;
+   
+  }
+
+  .nav-links li {
+    padding-bottom: 15%;
+  }
+
+  .nav-bar .menu-bar {
+    display: flex;
+    position: absolute;
+    right: 100px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+.hero-img .image {
+    border-radius: 50%;
+  }
+}
+  
+  @media (min-width: 481px) and (max-width: 768px) {
+    .footer {
+    padding: 20px;
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .footer h1 {
+    font-size: 1.5rem;
+  }
+
+  .footer .social-links li img {
+    width: 22px;
+    display: none;
+  }
+}
+.footer .social-links li {
+  list-style: none;
+}
